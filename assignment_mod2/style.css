@@ -1,7 +1,9 @@
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+}
+
+body{
+	display: block;
 }
 
 
@@ -13,14 +15,9 @@ h1{
 }
 
 h2{
-	margin-bottom: 10px;
 	border: 2px solid black;
-	padding: 5px;
 }
 
-p{
-	padding: 5px;
-}
 
 #chinese{
 	text-align: center;
@@ -48,7 +45,6 @@ p{
 
 section{
 	background-color: green;
-	margin: 2px;
 }
 
 
